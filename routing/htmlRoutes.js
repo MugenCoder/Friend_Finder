@@ -5,7 +5,7 @@
 
 // DEPENDENIES
 
-const path = require('path');
+var path = require('path');
 
 // ROUTING
 
