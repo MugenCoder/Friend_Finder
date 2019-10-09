@@ -1,7 +1,7 @@
 // Your server.js file should require the basic npm packages we've used in class: express and path.
 
 // DEPENDENCIES
-const express = require('express');
+var express = require("express");
 
 // INITIALIZATION/CONFIGURATION
 var app = express();
