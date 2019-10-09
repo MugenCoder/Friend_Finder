@@ -1,5 +1,6 @@
 // You should save your application's data inside of app/data/friends.js as an array of objects. Each of these objects should roughly follow the format below.
-var friends = {
+var friends = [
+  {
   "name":"Lion-O",
   "photo":"../images/Lion-O-Ritchie.jpg",
   "scores":[
@@ -120,5 +121,9 @@ var friends = {
           1,
           5
         ] 
-};
+  }
+];
+
+// Here we export the array. This makes it accessible to other files using require.
+module.exports = friends;
 
