@@ -1,5 +1,5 @@
 // You should save your application's data inside of app/data/friends.js as an array of objects. Each of these objects should roughly follow the format below.
-var mateArray = {
+var friends = {
   "name":"Lion-O",
   "photo":"../images/Lion-O-Ritchie.jpg",
   "scores":[
